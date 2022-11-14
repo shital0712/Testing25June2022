@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-31T17:55:43 IST" name="Suite" finished-at="2022-10-31T17:56:37 IST" duration-ms="54182">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupTest.loginToApp1Test()[pri:0, instance:TestCases.GroupTest@6b81ce95]" name="loginToApp1Test" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyBotLogoTest()[pri:0, instance:TestCases.GroupTest@6b81ce95]" name="verifyBotLogoTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyUrlTest()[pri:0, instance:TestCases.GroupTest@6b81ce95]" name="verifyUrlTest" class="TestCases.GroupTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-10-31T17:55:43 IST" name="Test" finished-at="2022-10-31T17:56:37 IST" duration-ms="54182">
+      <class name="TestCases.GroupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:55:43 IST" name="setup" finished-at="2022-10-31T17:56:11 IST" duration-ms="27845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginToApp1Test()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:11 IST" name="loginToApp1Test" finished-at="2022-10-31T17:56:14 IST" duration-ms="3508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp1Test -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:14 IST" name="closeBrowser" finished-at="2022-10-31T17:56:17 IST" duration-ms="2815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp1Test status=SUCCESS method=GroupTest.loginToApp1Test()[pri:0, instance:TestCases.GroupTest@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:17 IST" name="setup" finished-at="2022-10-31T17:56:29 IST" duration-ms="12323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBotLogoTest()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:29 IST" name="verifyBotLogoTest" finished-at="2022-10-31T17:56:30 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBotLogoTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:30 IST" name="closeBrowser" finished-at="2022-10-31T17:56:31 IST" duration-ms="1017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBotLogoTest status=SUCCESS method=GroupTest.verifyBotLogoTest()[pri:0, instance:TestCases.GroupTest@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:31 IST" name="setup" finished-at="2022-10-31T17:56:36 IST" duration-ms="5430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUrlTest()[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:36 IST" name="verifyUrlTest" finished-at="2022-10-31T17:56:36 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.GroupTest@6b81ce95]" started-at="2022-10-31T17:56:36 IST" name="closeBrowser" finished-at="2022-10-31T17:56:37 IST" duration-ms="739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUrlTest status=SUCCESS method=GroupTest.verifyUrlTest()[pri:0, instance:TestCases.GroupTest@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
